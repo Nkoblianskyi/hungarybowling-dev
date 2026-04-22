@@ -43,7 +43,7 @@ export const cikkek: BlogPost[] = [
     ],
   },
   {
-    slug: 'miert-nepszeru-a-bowling-minden-korosztályban',
+    slug: 'miert-nepszeru-a-bowling-minden-korosztalyban',
     cim: 'Miért népszerű a bowling minden korosztályban?',
     tag: 'Kultúra',
     kivonat:
