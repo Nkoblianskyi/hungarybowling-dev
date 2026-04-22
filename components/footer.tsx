@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const footerLinks = {
   tartalom: [
@@ -25,6 +26,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center justify-center gap-2">
+            <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
               <div className="mb-4 flex items-baseline gap-[0.18em] leading-none">
                 <span className="font-serif font-bold text-2xl tracking-tight text-primary-foreground">
                   Hungary
